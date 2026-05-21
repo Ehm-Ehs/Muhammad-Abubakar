@@ -1,0 +1,66 @@
+.tools-section {
+  padding: 2rem 0 5rem 0;
+}
+
+.tools-container-card {
+  background-color: #070b15; /* Deep navy box */
+  border: 1px solid var(--border-color);
+  border-radius: 1.5rem;
+  padding: 3.5rem 2rem;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+:root.light-mode .tools-container-card {
+  background-color: #f1f5f9; /* Light mode color override */
+  border-color: #e2e8f0;
+}
+
+.tools-title {
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 2rem;
+}
+
+.tools-rows-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.tools-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+}
+
+.tool-text-item {
+  font-family: var(--font-sans);
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  transition: color 0.2s ease, transform 0.2s ease;
+  cursor: default;
+}
+
+.tool-text-item:hover {
+  color: var(--text-primary);
+  transform: translateY(-1px);
+}
+
+@media (max-width: 768px) {
+  .tools-container-card {
+    padding: 2rem 1.25rem;
+  }
+  .tools-row {
+    gap: 1.5rem;
+  }
+  .tools-title {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+  }
+}

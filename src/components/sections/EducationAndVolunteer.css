@@ -1,0 +1,126 @@
+.edu-vol-section {
+  padding: 5rem 0;
+}
+.edu-vol-grid {
+  display: grid;
+  grid-template-columns: 1.1fr 1.2fr;
+  gap: 4rem;
+  align-items: start;
+}
+.edu-column, .certs-column {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.edu-card {
+  text-align: left;
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  padding: 2rem !important;
+  border-radius: 12px;
+}
+.degree-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+}
+.university-name {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--accent-blue);
+  margin-bottom: 0.75rem;
+}
+.edu-class {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+.volunteer-wrapper {
+  margin-top: 2.5rem;
+}
+.vol-card-navy {
+  background-color: #0c1322;
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 2rem;
+}
+:root.light-mode .vol-card-navy {
+  background-color: #f1f5f9;
+}
+.vol-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+.vol-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+}
+.vol-check-svg {
+  color: var(--accent-blue);
+  flex-shrink: 0;
+  margin-top: 0.25rem;
+}
+.vol-check-svg circle {
+  fill: rgba(59, 130, 246, 0.1);
+  stroke: var(--accent-blue);
+}
+.vol-text {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  text-align: left;
+  line-height: 1.5;
+}
+.certs-grid-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+.cert-item-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 1rem 1.25rem;
+  transition: all 0.2s ease;
+}
+.cert-item-card:hover {
+  border-color: var(--accent-blue);
+  transform: translateY(-1px);
+}
+.cert-info {
+  text-align: left;
+}
+.cert-card-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 0.25rem;
+}
+.cert-card-provider {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+}
+.cert-card-year {
+  background-color: #1e293b;
+  color: var(--text-secondary);
+  padding: 0.25rem 0.75rem;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  flex-shrink: 0;
+  margin-left: 1rem;
+}
+:root.light-mode .cert-card-year {
+  background-color: #e2e8f0;
+}
+@media (max-width: 992px) {
+  .edu-vol-grid {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+}

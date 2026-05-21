@@ -1,0 +1,108 @@
+.about-grid {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 3.5rem;
+  align-items: center;
+}
+.about-image-side {
+  display: flex;
+  justify-content: center;
+}
+.about-image-container {
+  width: 100%;
+  max-width: 360px;
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-lg);
+  aspect-ratio: 1 / 1;
+}
+.about-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+.about-image-container:hover .about-image {
+  transform: scale(1.05);
+}
+.about-info-side {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+.about-text {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  text-align: left;
+}
+.contact-card {
+  margin-top: 1.5rem;
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  padding: 1.5rem !important;
+}
+.contact-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.contact-col {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex: 1;
+}
+.contact-icon-circle {
+  width: 2.75rem;
+  height: 2.75rem;
+  border-radius: 50%;
+  background: rgba(59, 130, 246, 0.1);
+  border: 1px solid rgba(59, 130, 246, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  flex-shrink: 0;
+  transition: all 0.25s ease;
+}
+.contact-col:hover .contact-icon-circle {
+  background: rgba(59, 130, 246, 0.2);
+  transform: scale(1.05);
+}
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 0.25rem;
+}
+.contact-label {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+  font-weight: 600;
+}
+.contact-value {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--text-primary);
+  word-break: break-all;
+}
+.highlight-text {
+  color: var(--accent-blue);
+  font-weight: 600;
+}
+@media (max-width: 992px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+}
+@media (max-width: 768px) {
+  .contact-row {
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+}
