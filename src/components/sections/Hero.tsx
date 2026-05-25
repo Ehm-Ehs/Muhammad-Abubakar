@@ -1,7 +1,6 @@
 import React from 'react';
 import './Hero.css';
 import { Button } from '../ui/Button';
-import heroImg from '../../assets/hero.png';
 
 export const Hero: React.FC = () => {
   const stats = [
@@ -49,7 +48,7 @@ export const Hero: React.FC = () => {
         <div className="hero-visual">
           <div className="image-wrapper">
             <img
-              src={heroImg}
+              src="/asset/lascotstudios.jpg"
               alt="M. Abubakar - Community & Program Manager"
               className="hero-image"
             />

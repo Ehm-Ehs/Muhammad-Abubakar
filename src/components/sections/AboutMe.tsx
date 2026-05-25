@@ -28,7 +28,7 @@ export const AboutMe: React.FC = () => {
           <div className="about-image-side">
             <div className="about-image-container">
               <img 
-                src="https://images.unsplash.com/photo-1544717305-2782549b5136?q=80&w=600&auto=format&fit=crop" 
+                src="/asset/lascotstudios-5.jpg" 
                 alt="M. Abubakar Profile" 
                 className="about-image"
               />

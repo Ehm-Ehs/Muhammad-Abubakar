@@ -21,10 +21,11 @@ export const ContactFooter: React.FC = () => {
                 ✉️ Email Me
               </Button>
             </a>
-            <a href="#resume" onClick={(e) => {
-              e.preventDefault();
-              alert('Resume download link placeholder');
-            }}>
+            <a 
+              href="https://drive.google.com/file/d/1k65tcAySCUAgTiLEXx9hVJtto4NNF-tA/view?usp=drive_open" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
               <Button variant="outline" className="cta-btn">
                 📄 View Resume
               </Button>
