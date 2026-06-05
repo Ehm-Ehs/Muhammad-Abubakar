@@ -13,6 +13,8 @@ export const EducationAndVolunteer: React.FC = () => {
   ];
 
   const certifications = [
+    { title: 'Developing Business Partnerships', provider: 'LinkedIn', year: '2026' },
+    { title: 'The Essential Sales Tech Stack: Tools Every Seller Needs to Crush Quota', provider: 'LinkedIn', year: '2026' },
     { title: 'The Community MBA', provider: 'CMX Academy', year: '2025' },
     { title: 'Community Management Tutor (Premium Award)', provider: 'Nupe Tech Community Scholarship 4.0', year: '2024' },
     { title: 'Successful Community Management', provider: 'Feverbee', year: '2024' },

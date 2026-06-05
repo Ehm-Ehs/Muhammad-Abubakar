@@ -20,7 +20,7 @@ export const Experience: React.FC = () => {
     {
       role: 'Community Manager',
       company: 'Edusproute • Remote',
-      duration: 'Oct 2024 – Present',
+      duration: 'Oct 2024 – May 2026',
       description: 'Ed-tech platform providing cohort-based education, mentorship & career growth.',
       bullets: [
         'Launched the "Sprouter of the Month" spotlight initiative to drive consistent community engagement.',
@@ -32,7 +32,7 @@ export const Experience: React.FC = () => {
     {
       role: 'Community Manager | Program Manager',
       company: 'Kuagi Resources • Kwara, Nigeria',
-      duration: 'Aug 2023 – July 2025',
+      duration: 'Aug 2023 – Present',
       description: 'Tech-hub and IT-services company offering co-working, training, and community-building.',
       bullets: [
         'Boosted overall community interaction by 45% through data-driven campaigns and event planning.',
