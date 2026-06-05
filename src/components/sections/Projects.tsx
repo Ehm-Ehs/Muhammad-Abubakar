@@ -8,7 +8,6 @@ export const Projects: React.FC = () => {
     {
       title: 'OpenHall (formerly TechNest)',
       duration: '2025 – Present',
-      image: '/asset/openhall.jpg',
       description: 'Co-founded and structured a professional community of diverse industry participants, evolving from a prize-based program to an ongoing engagement platform. Leading the transition to an industry insight exchange centre and an annual achievement program.',
     },
     {
@@ -28,17 +27,17 @@ export const Projects: React.FC = () => {
   return (
     <section id="projects" className="projects-section">
       <div className="container">
-        <SectionHeader 
-          title="Key Projects & Initiatives" 
+        <SectionHeader
+          title="Key Projects & Initiatives"
           icon={projectIcon}
         />
         <div className="projects-grid">
           {projects.map((project, index) => (
             <Card key={index} className="project-card">
               <div className="project-image-wrapper">
-                <img 
-                  src={project.image} 
-                  alt={project.title} 
+                <img
+                  src={project.image}
+                  alt={project.title}
                   className="project-image"
                 />
                 <span className="project-duration-badge">

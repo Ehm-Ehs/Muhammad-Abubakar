@@ -19,7 +19,7 @@ export const Experience: React.FC = () => {
     },
     {
       role: 'Community Manager',
-      company: 'Sproute • Remote',
+      company: 'Edusproute • Remote',
       duration: 'Oct 2024 – Present',
       description: 'Ed-tech platform providing cohort-based education, mentorship & career growth.',
       bullets: [
@@ -53,8 +53,8 @@ export const Experience: React.FC = () => {
   return (
     <section id="experience" className="experience-section">
       <div className="container">
-        <SectionHeader 
-          title="Professional Experience" 
+        <SectionHeader
+          title="Professional Experience"
           icon={briefCaseIcon}
         />
         <div className="timeline-container">
