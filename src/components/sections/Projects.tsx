@@ -8,7 +8,7 @@ export const Projects: React.FC = () => {
     {
       title: 'OpenHall (formerly TechNest)',
       duration: '2025 – Present',
-      image: 'https://images.unsplash.com/photo-1511578314322-379afb476865?q=80&w=600&auto=format&fit=crop',
+      image: '/asset/openhall.jpg',
       description: 'Co-founded and structured a professional community of diverse industry participants, evolving from a prize-based program to an ongoing engagement platform. Leading the transition to an industry insight exchange centre and an annual achievement program.',
     },
     {
